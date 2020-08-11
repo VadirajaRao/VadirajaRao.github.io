@@ -1,9 +1,34 @@
+/* The margin is set to zreo to avoid the default margin assigned*/
+body {
+    margin: 0;
+}
+
 h1 {
     text-align: center;
+    font-size: 48pt;
 }
 
 .main-content {
+    font-size: 24pt;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
 }
+
+.main-image {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../images/main_background.jpg');
+}
+
+.heading-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
