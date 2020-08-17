@@ -23,7 +23,6 @@ p {
     color: white;
     justify-content: center;
     align-items: center;
-    display: flex;
 }
 
 .heading-content p {
@@ -37,4 +36,8 @@ p {
     text-align: center;
     font-size: 48pt;
     margin-bottom: 2%;
+}
+
+.letters {
+    display: flex;
 }
