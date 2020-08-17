@@ -14,8 +14,12 @@
   <body>
     <div class="main-image">
       <div class="heading-content">
-	<h1 class="heading-1">ABOUT</h1>
-
+	<h1 class="letter">A</h1>
+	<h1 class="letter">b</h1>
+	<h1 class="letter">o</h1>
+	<h1 class="letter">u</h1>
+	<h1 class="letter">t</h1>
+      
 	<p>
 	  Well, this is not exactly the final version or something.
 	</p>
@@ -37,11 +41,13 @@
     <script>
       anime.timeline()
     .add({
-	targets: ".heading-1",
-	easing: "easeOutExpo",
-	scale: [0.3, 1],
+	targets: ".letter",
+	scale: [4, 1],
 	opacity: [0, 1],
-	duration: 5000
+	translateZ: 0,
+	easing: "easeOutExpo",
+	duration: 2500,
+	delay: (el, i) => 100*i
     });
     </script>
   </body>
