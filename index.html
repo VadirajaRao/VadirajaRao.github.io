@@ -26,6 +26,11 @@
 		  duration: 2500,
 		  offset: "+=500",
 		  delay: (el, i) => 100*i
+	      }).add({
+		  targets: "p",
+		  easing: "easeOutExpo",
+		  duration: 2000,
+		  opacity: [0, 1]
 	      });
       }
 
