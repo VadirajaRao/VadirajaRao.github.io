@@ -8,6 +8,10 @@ p {
 }
 
 
+li {
+    display: list-item;
+}
+
 .heading-content {
     position: absolute;
     height: 100%;
@@ -18,8 +22,8 @@ p {
 
 .heading-content p {
     font-size: 20pt;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 25%;
     margin-bottom: 20px;
     opacity: 0;
     color: #333333;
@@ -35,4 +39,25 @@ p {
 .letters {
     display: flex;
     justify-content: center;
+}
+
+ul.main-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+}
+
+ul.main-navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+ul.main-navbar li a.active {
+    background-color: #000000;
 }
