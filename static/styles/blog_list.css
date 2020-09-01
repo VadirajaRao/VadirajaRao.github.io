@@ -1,0 +1,69 @@
+/* The margin is set to zreo to avoid the default margin assigned*/
+body {
+    margin: 0;
+}
+
+li {
+    display: list-item;
+}
+
+/* Navbar styles */
+ul.main-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+}
+
+ul.main-navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+ul.main-navbar li a.active {
+    background-color: #000000;
+}
+
+/* Main content */
+.main-content {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content p {
+    font-size: 20pt;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Footer styles */
+footer {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #333333;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer p{
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+}
+
+footer p a {
+    color: white;
+}
+
