@@ -3,8 +3,8 @@ body {
     margin: 0;
 }
 
-li {
-    display: list-item;
+p {
+    margin: 0;
 }
 
 /* Navbar styles */
@@ -29,54 +29,32 @@ ul.main-navbar li a.active {
     background-color: #000000;
 }
 
-/* Main content */
-.main-content {
+/* Content styles */
+.actual-content {
     height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.main-content p {
+.actual-content p {
     font-size: 20pt;
     margin-left: 30%;
     margin-right: 25%;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     color: #333333;
 }
 
-/* List */
-.article_list {
-    margin-top: 5%;
-}
-
-.article_list h1 {
-    color: #3F3F3F;
+.actual-content h1 {
     text-align: center;
-    font-size: 36pt;
-}
-
-.article_list ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.article_list ul li a {
-    text-decoration: none;
-    margin-left: 30%;
-    margin-right: 25%;
-    font-size: 16pt;
-    color: #333333;
-}
-
-.article_list ul li a:visited {
-    color: #999999;
+    font-size: 40pt;
+    margin-bottom: 2%;
+    color: #3F3F3F;
 }
 
 /* Footer styles */
 footer {
-    position: absolute; /* Change to relative when the content becomes long*/
+    position: relative;
     bottom: 0;
     height: 200px;
     width: 100%;

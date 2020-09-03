@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta
-      name="description"
-      content="Author: Vadiraja Rao M K.
-	       A personal website just to try few things as a programmer"
-      >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VadirajaRao - Home</title>
-    <link rel="icon" href="static/images/title.jpg" async>
-    <link rel="stylesheet" href="static/styles/index.css" aync>
+	<meta
+	  name="description"
+	  content="Author: Vadiraja Rao M K.
+		   A personal website just to try few things as a programmer"
+	  >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VadirajaRao - Home</title>
+	<link rel="icon" href="static/images/title.jpg" async>
+	<link rel="stylesheet" href="static/styles/index.css" aync>
   </head>
   <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <script>
-      function animate() {
+	<script>
+	  function animate() {
 	  anime.timeline()
-	      .add({
+		  .add({
 		  targets: ".letter",
 		  scale: [4, 1],
 		  opacity: [0, 1],
@@ -25,27 +25,28 @@
 		  easing: "easeOutExpo",
 		  duration: 2000,
 		  delay: (el, i) => 100*i
-	      }).add({
+		  }).add({
 		  targets: ".heading-content p",
 		  easing: "easeOutExpo",
 		  duration: 2500,
 		  opacity: [0, 1],
 		  offset: "-=2000"
-	      });
-      }
+		  });
+	  }
 
-      document.addEventListener("DOMContentLoaded", animate);
-    </script>
+	  document.addEventListener("DOMContentLoaded", animate);
+	</script>
 
-    <div>
-      <ul class="main-navbar">
-	<li><a class="active" target="_self">About</a></li>
-	<li><a href="articles/blog_list.html">Blog</a></li>
-      </ul>
-    </div>
+	<!-- Navbar -->
+	<div>
+	  <ul class="main-navbar">
+		<li><a class="active" target="_self">About</a></li>
+		<li><a href="articles/blog_list.html">Blog</a></li>
+	  </ul>
+	</div>
 
-    <div class="main-content">
-      <div class="heading-content">
+	<div class="main-content">
+	  <div class="heading-content">
 	<div class="letters">
 	  <h1 class="letter">A</h1>
 	  <h1 class="letter">b</h1>
@@ -53,52 +54,77 @@
 	  <h1 class="letter">u</h1>
 	  <h1 class="letter">t</h1>
 	</div>
-      
+	  
 	<p>
-	  I am not really great at writing. But that does not mean I don't want to write. There are several opions available to write today, I even tried one of them. I have written
-	  a couple of articles on Medium website. Since it was my first time writing, I wouldn't call it a success. But, it was something and I am happy that I tried.
+	  I am not really great at writing. But that does not mean I don't want to 
+	  write. There are several opions available to write today, I even tried one
+	   of them. I have written a couple of articles on Medium website. Since it 
+	  was my first time writing, I wouldn't call it a success. But, it was 
+	  something and I am happy that I tried.
 	</p>
 	<p>
-	  Writing on Medium did not make a lot of sense to me. The reason I was writing or I want to write is not for people to read and get some value out of it. I would be happy if
-	  that is the case. But the reason I decided to write was just  because I wanted to write. So, when I ended up writing on Medium, I spent quite sometime going through the stats.
-	  That made me realise that it was not working and I stopped writing on Medium altogether.
+	  Writing on Medium did not make a lot of sense to me. The reason I was 
+	  writing or I want to write is not for people to read and get some value 
+	  out of it. I would be happy if that is the case. But the reason I decided 
+	  to write was just  because I wanted to write. So, when I ended up writing 
+	  on Medium, I spent quite sometime going through the stats. That made me 
+	  realise that it was not working and I stopped writing on Medium altogether.
 	</p>
 	<p>
-	  Though I was okay with it at first, as time passed by that need for writing came back. So, I had to do something about it. That's when the idea of creating a personal site came
-	  to my mind. That's what I did when that idea popped in my head.
+	  Though I was okay with it at first, as time passed by that need for 
+	  writing came back. So, I had to do something about it. That's when the 
+	  idea of creating a personal site came to my mind. That's what I did when 
+	  that idea popped in my head.
 	</p>
 	<p>
-	  Creating my own site gives me a lot more freedom than using some other site. The problem last time was the stats. I spent a lot of time looking at it. The number of reads were
-	  less because it was the beginning. I understand that. But when I asked myself do I need that, the answer was clearly a no. I am not interested in the reads I get because that is
+	  Creating my own site gives me a lot more freedom than using some other 
+	  site. The problem last time was the stats. I spent a lot of time looking 
+	  at it. The number of reads were less because it was the beginning. I 
+	  understand that. But when I asked myself do I need that, the answer was 
+	  clearly a no. I am not interested in the reads I get because that is 
 	  not the reason I decided to write.
 	</p>
 	<p>
-	  You need data when you are trying to perform better for whatever the reason might be. But this is not about performance for me. It is just the joy of writing. So, the only thing
-	  that really matters to me here is the frequency. The more frequently I am writing the better and that is all that matters.
+	  You need data when you are trying to perform better for whatever the 
+	  reason might be. But this is not about performance for me. It is just the 
+	  joy of writing. So, the only thing that really matters to me here is the 
+	  frequency. The more frequently I am writing the better and that is all 
+	  that matters.
 	</p>
 	<p>
-	  When I created this site, I am just done with college and waiting for the work to start. So, I have some time on my hand. Writing more frequently should technically not be a
-	  problem. But once work starts that's when I have to question myself about how frequnent I am.
+	  When I created this site, I am just done with college and waiting for the 
+	  work to start. So, I have some time on my hand. Writing more frequently 
+	  should technically not be a problem. But once work starts that's when I 
+	  have to question myself about how frequnent I am.
 	</p>
 	<p>
-	  Basically, there are two things I am planning or want to write about. There are times where I just have these philosophical thoughts or some internal dialogue. Those momnets
-	  help me with gaining a different perspective. So, that's something I want to write about. The second thing being the projects that I work on. When I say "projects I work on" they
-	  are not the actual professional work. That goes without saying for obvious reasons. The thing I want to write about is my side projects like this site or something that I have
-	  been reading about.
+	  Basically, there are two things I am planning or want to write about. 
+	  There are times where I just have these philosophical thoughts or some 
+	  internal dialogue. Those momnets help me with gaining a different 
+	  perspective. So, that's something I want to write about. The second thing 
+	  being the projects that I work on. When I say "projects I work on" they
+	  are not the actual professional work. That goes without saying for obvious
+	   reasons. The thing I want to write about is my side projects like this 
+	  site or something that I have been reading about.
 	</p>
 	<p>
-	  My writings can be found in the blog section. There is no comment section because I am not exactly looking for those yet. It is more of read what you see and keep the thoughts to
-	  yourself. Unless you already have a way of contacting me then of course I will be open to talk about it.
+	  My writings can be found in the blog section. There is no comment section 
+	  because I am not exactly looking for those yet. It is more of read what 
+	  you see and keep the thoughts to yourself. Unless you already have a way 
+	  of contacting me then of course I will be open to talk about it.
 	</p>
 	<p>
-	  There is no concrete plan as to how often I will be writing. I am not interested in creating a newsletter as well. I will just write whenever I feel there is something to talk
-	  about. Making no comments and no stats option all the more suitable for my current perspective about writing.
+	  There is no concrete plan as to how often I will be writing. I am not 
+	  interested in creating a newsletter as well. I will just write whenever I 
+	  feel there is something to talk about. Making no comments and no stats 
+	  option all the more suitable for my current perspective about writing.
 	</p>
-      </div>
-    </div>
+	  </div>
+	</div>
 
-    <div class="footer">
+	<!-- Footer -->
+    <footer>
       <p>This site is created using GitHub Pages (obviously). The code can be found in this <a href="https://github.com/VadirajaRao/VadirajaRao.github.io" target="_blank">repository</a>.
-    </div>
+    </footer>
   </body>
 </html>
